@@ -11,3 +11,20 @@ Unlike general-purpose fitness applications, KineFit AI eliminates the need for 
 3. **Real-time Injury Prevention Loop:** A low-latency feedback loop that triggers immediate auditory and visual corrections on-screen whenever an unsafe joint deviation (e.g., lumbar spine collapse or knee valgus) is detected.
 
 ## 🏗️ System Architecture & Value Chain
+
+    [User Smartphone Camera] 
+           │
+           ▼ (30 FPS Video Stream)
+    [Pose Estimation Module] ──► Extracts 17 Keypoints (Biomechanical Data)
+           │
+           ▼
+    [Pregnancy/Rehab Adaptive Engine] ──► Cross-references with Gestational Safety Matrix
+           │
+           ▼
+    [Real-time Feedback UI] ──► Low-latency Audio/Visual Corrective Alerts
+
+## 👥 Advisory & Management
+- **Sahar Jokar (Founder & CEO):** Sports Science Specialist, Core Methodologist.
+- **Davoud Jokar (Senior Business Strategy & Value Chain Advisor):** Management Engineering Analyst (University of Rome Tor Vergata), Winner of StarTech 2026 Innovation Championship (Luxembourg).
+
+*This repository contains the architecture, core algorithmic logic, and UI frameworks for the KineFit AI Minimum Viable Product (MVP), supported under European academic innovation frameworks.*
